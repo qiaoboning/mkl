@@ -1,0 +1,148 @@
+
+.bgImg{
+	background:url(../../img/login-reg.jpg) center top no-repeat;
+}
+.mid{
+	
+	width:955px;
+	margin:0 auto;
+	.logo{
+		width:314px;
+		height:34px;
+		margin-bottom:50px;
+		margin-top:13px;
+	}
+}
+.login{
+	float:right;
+	margin-top:100px;
+	margin-bottom:115px;
+	width:340px;
+	height:487px;
+	padding-top:18px;
+	background:rgba(255,255,255,.6);
+	// background:red;
+	// position:absolute;
+	// right:180px;
+	// top:100px;
+	.mid_login{
+		width:280px;
+		margin:0 auto;
+		span{
+			line-height:25px;
+			font-size:12px;
+			a{
+				color:#fea417;
+				text-decoration:underline;
+			}
+		}
+		span:nth-child(2){
+			float:right;
+		}
+		form{
+			label{
+				width:280px;
+				height:38px;
+				border:1px solid #c5c8c6;
+				// border-right:none;
+				margin-bottom:30px;
+				display: flex;
+				font-size: 13px;
+				color:#666f76;
+				align-items: center;
+				.iconfont{
+					font-size:24px;
+					color:#000;
+				}
+			}
+			label input{
+				background:rgba(255,255,255,0);
+				padding-left:7px;
+				height:30px;
+				outline:none;
+				border: none;
+				border-left:none;
+			}
+			.error{
+				width:280px;
+				height:40px;
+				line-height:40px;
+				// border:1px solid #ccc;
+				color: #f00;
+				display:none;
+			}
+			.remember{
+				vertical-align:middle;
+			}
+			span{
+				padding-left:10px;
+				color:#888;
+				border-right:none;
+
+			}
+			.check{
+				width:150px;
+				border-right:none;
+
+			}
+			.yzm{
+				display:inline-block;
+				height:30px;
+				// border:1px solid #c5c8c6;
+				border-left:none;
+				background:rgba(255,255,255,0);
+				line-height:38px;
+				padding-left:25px;
+				a{
+					text-decoration:none;
+					color:#888;
+				}
+				i{
+					display:inline-block;
+					width:55px;
+					line-height:30px;
+					text-align:center;
+					font-size:16px;
+					color:red;
+					height:28px;
+					margin-right:5px;
+					background:url(../../img/yzm.jpg) no-repeat;
+				}
+			}
+			.forget{
+				float:right;
+				a{
+					text-decoration:none;
+					color:#888;
+				}
+			}
+			.register{
+				letter-spacing:38px;
+				margin-top:22px;
+				width:180px;
+				padding-left:100px;
+				height:45px;
+				line-height:45px;
+				background:#d10048;
+				font-size:18px;
+				border-radius:5px;
+				a{
+					display:inline-block;
+					color:#fff;
+				}
+			}
+			p{
+				color:#888;
+				padding-top:40px;
+				img:first-child{
+					margin-left:20px;
+				}
+				img{
+					width:30px;
+					height:30px;
+					display:inline-block;
+				}
+			}
+		}
+	}
+}

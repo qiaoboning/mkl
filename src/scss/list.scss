@@ -1,0 +1,172 @@
+
+.list-middle{
+	width:1000px;
+	margin:0 auto;
+}
+.kind{
+	margin-bottom:20px;
+	height:130px;
+	background:#fff;
+	padding:0 20px;
+	p{
+		border-bottom:2px solid #eceae6;
+		a{
+			color:#888;
+			height:43px;
+			line-height:43px;
+		}
+	}
+	.kind-mid{
+		border-bottom:1px solid #eceae6;
+		height:42px;
+		margin:0;
+	}
+	b{
+		float:left;
+		line-height:42px;
+	}
+	ul {
+		display:inline-block;
+		li{
+			line-height:42px;
+			width:153px;
+			text-align:center;
+			float:left;
+			a{
+				color:#888;
+			}
+		}
+		li:hover span{
+			color:#e8254a;
+		}
+		.focus{
+			text-align:right;
+			a{
+				color:#fea417;	
+			}
+			img{
+				display:inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+	
+}
+// 商品详情
+.goodsList{
+	height:1372px;
+	background:#fff;
+	border-radius:5px;
+	.goodsBox{
+		display:none;
+		overflow:hidden;
+		background:#fff;
+		padding-top:30px;
+		padding-left:25px;
+	}
+	.goodsBox.active{
+		display:block;
+	}
+	.goodsList-title{
+		height:40px;
+		background:#535353;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		ul{
+			.active{
+				background:#fff;
+				a{
+					color:black;
+				}
+			}
+			li{
+			float:left;
+			line-height:40px;
+			color:#fff;
+			width:70px;
+			text-align:center;
+				a{
+					color:#fff;
+				}
+			} 
+		}
+	}
+	.goods{
+		float:left;
+		// padding:30px 25px;
+		// padding-top:30px;
+		.goodsAlone{
+			width:218px;
+			height:218px;
+			border:1px solid #ddd;
+			box-sizing:border-box;
+			margin-bottom:10px;
+			margin-right:25px;
+			img{
+				margin:0 auto;
+				width:160px;
+				height:207px;
+			}
+		}
+		p{
+			height:50px;
+			line-height:21px;
+			width:218px;
+			a{
+				color:#888;
+			}
+		}
+		.price{
+			span{
+				color:#f52648;
+				img{
+					border:none;
+					display:inline-block;
+					vertical-align:middle;
+					float:right;
+					width:30px;
+					height:30px;
+				}
+			}
+		}
+	}
+	
+}
+.paging{
+		height:120px;
+		background:#fff;
+		width:1000px;
+		ul {
+			width:550px;
+			margin:0 auto;
+			.active{
+				background:#d10048;
+				border:none;
+				a{
+					color:#fff;
+				}
+			}
+			li{
+				margin-top:20px;
+				margin-right:15px;
+				float:left;
+				width:30px;
+				height:30px;
+				text-align:center;
+				line-height:30px;
+				border:1px solid #cfcfcf;
+				border-radius:5px;
+				box-sizing:border-box;
+				a{
+					color:#333;
+				}
+			}
+		}
+		li:last-child{
+			width:60px;
+		}
+	}
+
+.goodsList .description a:hover{
+	color:#666;
+}

@@ -1,0 +1,248 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车页面</title>
+	<link rel="stylesheet" href="dist/css/all.css">
+	<link rel="stylesheet" href="src/scss/iconfont.css">
+	<script src="dist/js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<div class="twoList">
+		<!-- 左边列表 -->
+		<ul class='leftList'>
+			<li class='focus bgpic'><a href="javascript:;">首页</a></li>
+			<li class="act bgpic"><a href="javascript:;">品牌系列</a>
+				<!-- 隐藏列表 -->
+				<ul class="noneList">
+					<li class='focus'><a href="javascript:;"></a></li>
+					<li><a href="javascript:;">维您</a></li>
+					<li><a href="javascript:;">LACELL</a></li>
+					<li><a href="javascript:;">秘密花园</a></li>
+				</ul>
+			</li>
+			<li class="bgpic"><a href="javascript:;">美容护肤</a></li>
+			<li class="bgpic"><a href="javascript:;">健康养生</a></li>
+			<li class="bgpic"><a href="javascript:;">家居日用</a></li>
+			<li class="bgpic"><a href="javascript:;">积分换购</a></li>
+			<li class="bgpic"><a href="javascript:;">VIP会员专区</a></li>
+			<li class="bgpic"><a href="javascript:;">关于麦考林</a></li>
+			<li class="bgpic"><a href="javascript:;">企业荣誉</a></li>
+		</ul>	
+
+		<!-- 右边列表 -->
+		<ul class="rightList">
+			<li><a href="javascript:;"><img src="img/service.png" alt=""></a></li>
+			<li><a href="javascript:;"><img src="img/phone.png" alt=""></a></li>
+			<li><a href="javascript:;"><img src="img/notice.jpg" alt=""></a></li>
+			<li><a href="javascript:;"><img src="img/arrow.png" alt=""></a></li>
+		</ul>
+	</div>
+
+
+	<div class="list-middle">
+		<div class="header">
+			<img src="img/logo.jpg" class="logo">
+			<div class="header_right">
+				<a href="javascript:;"><i class="iconfont icon-search"></i></a>
+				<a href="javascript:;">登录</a>
+				<a href="javascript:;">注册</a>
+				<a href="javascript:;">我的账户</a>
+				<a href="javascript:;" class="focus"><i class="iconfont icon-cart"></i>服务热线<span>&nbsp;400-100-1000</span></a>
+			</div>
+		</div>
+		<!-- 购物车 -->
+		<div class="shoppingcart">
+			<div class="deletegoods">
+				<p>确定删除该商品？
+					<p class='confirm sure'>确定</p>
+					<p class='confirm cancel'>取消</p>
+				</p>
+			</div>
+			<i class="iconfont icon-cart"></i><h3>购物车</h3>
+			
+			<table class='tab' border="0" cellpadding="0" cellspacing="0" >
+				<tr class='table-title' height='35'>
+					<th width='480'>
+						<input type="checkbox" class='goodsName'>
+						<span>商品名称</span>
+					</th>
+					<th width='130'>
+						<span>价格</span>
+					</th>
+					<th width='130'>
+						<span>数量</span>
+					</th>
+					<th width='130'>
+						<span>小计（元）</span>
+					</th>
+					<th width='130'>
+						<span>操作</span>
+					</th>
+				</tr>
+
+				<tr height='40'>
+					<td colspan="5" align='center' class='noneGoods'>
+						您还没有添加任何商品，<a href="	javascript:;">返回首页</a>
+					</td>
+					<td></td>	
+					<td></td>
+					<td></td>
+					<td></td>	
+				</tr>
+
+				<tr style="background: #fffdeb">
+					<td>
+						<input type="checkbox" class='goodsName picBefore'>
+						<img src="img/natural.jpg" alt="">
+						<div class="content-right">
+							<p class="content">神奇的胶原蛋白线球，具有三重螺旋分子结构，溶于水并被吸收，不受温度影响，使肌肤滋润、光泽、有弹性</p>
+							<p class='Product-id'>商品编号</p>
+						</div>	
+					</td>
+					<td align='center' color='#888'>
+						<span>￥<span>188</span></span>
+					</td>
+					<td align='center'>
+						<div class="cart_item">
+							<div class="reduce">-</div>
+							<div class="number">1</div>
+							<div class="plus">+</div>
+						</div>					
+					</td>
+					<td align='center'>
+						<span>￥<span class='price data'>188</span></span>
+					</td>
+					<td align='center'>
+						<a href="javascript:;" class='delete'>删除</a>
+					</td>
+				</tr>
+
+
+				<tr style="background: #fffdeb">
+					<td>
+						<input type="checkbox" class='goodsName picBefore'>
+						<img src="img/natural.jpg" alt="">
+						<div class="content-right">
+							<p class="content">神奇的胶原蛋白线球，具有三重螺旋分子结构，溶于水并被吸收，不受温度影响，使肌肤滋润、光泽、有弹性</p>
+							<p class='Product-id'>商品编号</p>
+						</div>	
+					</td>
+					<td align='center' color='#888'>
+						<span>￥<span class='price'>88</span></span>
+					</td>
+					<td align='center'>
+						<div class="cart_item">
+							<div class="reduce">-</div>
+							<div class="number">1</div>
+							<div class="plus">+</div>
+						</div>					
+					</td>
+					<td align='center'>
+						<span>￥<span class='price data'>88</span></span>
+					</td>
+					<td align='center'>
+						<a href="javascript:;" class='delete'>删除</a>
+					</td>
+				</tr>
+			</table>
+
+
+			<div class="result">
+				<div class="result-left"><input type="checkbox">全选&nbsp;&nbsp;&nbsp;&nbsp;继续购物&nbsp;&nbsp;|&nbsp;&nbsp;清空选中商品	</div>
+				<div class="result-right">共 <span class='num'>	0</span>  件商品    商品应付总额 (不包含运费) ：<span class='num totalMoney'>￥188</span> 
+				<a href="javascript:;"><span>立即结算</span></a>
+				</div>
+			</div>
+		</div>
+		
+
+
+		<!-- 100%正品保证 -->
+		<div class="section_three">
+			<div class="sec03_top">
+				<div class="list">
+					<a href="javascript:;"><img src="img/percent.jpg"></a>
+					<a href="javascript:;" class="introduce">100%正品保证</a>
+				</div>
+			</div>
+			<div class="sec03_top">
+				<div class="list">
+					<a href="javascript:;"><img src="img/girl.jpg"></a>
+					<a href="javascript:;" class="introduce">专业在线客服</a>
+				</div>
+			</div>
+			<div class="sec03_top">
+				<div class="list">
+					<a href="javascript:;"><img src="img/girl.jpg"></a>
+					<a href="javascript:;" class="introduce">专业在线客服</a>
+				</div>
+			</div>
+			<ul class="sec03_bottom"></ul>
+		</div>
+	<!-- 列表 -->
+		<div class="section_four">
+			<dl>
+				<dt>新手指南</dt>
+				<dd><a href="javascript:;">新会员注册</a></dd>
+				<dd><a href="javascript:;">购物演示</a></dd>
+				<dd><a href="javascript:;">常见问题</a></dd>
+			</dl>
+			<dl>
+				<dt>付款方式</dt>
+				<dd><a href="javascript:;">银行卡支付</a></dd>
+				<dd><a href="javascript:;">支付宝支付</a></dd>
+				<dd><a href="javascript:;">余额支付</a></dd>
+			</dl>
+			<dl>
+				<dt>售后服务</dt>
+				<dd><a href="javascript:;">退换货政策</a></dd>
+				<dd><a href="javascript:;">退换货流程</a></dd>
+				<dd><a href="javascript:;">退款流程</a></dd>
+				<dd><a href="javascript:;">发票说明</a></dd>
+			</dl>
+			<dl>
+				<dt>特色服务</dt>
+				<dd><a href="javascript:;">贵宾专区</a></dd>
+				<dd><a href="javascript:;">在线客服</a></dd>
+			</dl>
+			<div class="Mlife">
+				<div class="ewm ewm_one">
+					<p>麦考林生活家</p>
+					<img src="img/ewm.jpg">
+				</div>
+				<div class="ewm">
+					<p>麦考林生活家</p>
+					<img src="img/ewm.jpg">
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<div class="line"></div>
+
+	<div class="footer">
+		<ul class="list">
+			<li><a href="javascript:;">关于麦考林</a></li>
+			<li><a href="javascript:;">INVESTOR RELATIONS</a></li>
+			<li><a href="javascript:;">联系我们</a></li>
+			<li><a href="javascript:;">服务中心</a></li>
+			<li class="active"><a href="javascript:;">加入我们</a></li>
+		</ul>
+		<p class="copyright">
+			<a href="javascript:;"><img src="img/copyright.png" alt=""></a>
+			 沪ICP备05003606号Copyright©2011-2015 MecoxLane Inc. All Rights Reserved
+		</p>
+		<p class="last">
+			<a href="javascript:;"><img src="img/free.jpg" alt="" class="free"></a>
+			<a href="javascript:;"><img src="img/onlineReview.jpg" class="onlineReview"></a>
+				
+			<a href="javascript:;">
+				<img src="img/badges.png" class="badges">沪公网安备 31010402000234号
+			</a>		
+		</p>
+	</div>
+<script src='src/js/shopping.js'></script>
+</body>
+</html>

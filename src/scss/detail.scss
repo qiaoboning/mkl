@@ -1,0 +1,282 @@
+.detail-middle{
+	width:984px;
+	margin:0 auto;
+	.detail-goods{
+		height:480px;
+		background: #fff;
+		padding:20px 0 20px 40px;
+		margin-bottom:20px;
+		.mid{
+			float:left;
+			width:415px;
+			position:relative;
+			.large-goods{
+				// display:none;
+				position:absolute;
+				// width:260px;
+				// height:260px;
+				width:0;
+				height:0;
+				left:300px;
+				top:0px;		
+				overflow:hidden;
+				border:1px solid #e8e8e8;
+				box-shadow:0 0 1px 1px #eee;
+				.large-img{
+					position:absolute;
+					left:0;
+					top:0;
+					width:560px;
+					height:730px;
+				}
+			}
+			.mid-goods{
+				width:415px;
+				height:365px;
+				margin-bottom:20px;
+				position:relative;
+				border:1px solid #e8e8e8;		
+				.box{
+					position:relative;
+					margin:0 auto;
+					width:280px;
+					height:365px;
+					#shadow{
+						display:none;
+						position:absolute;
+						left:0;
+						top:0;
+						width:130px;
+						height:130px;
+						background:rgba(0,0,0,.3);
+					}
+					img{
+						width:280px;
+						height:365px;
+					}
+				}
+			}
+			.small-goods{	
+				img{
+					width:90px;
+					height:90px;
+					border:1px solid #e8e8e8;
+					float:left;
+					margin-right:14px;
+					width:70px;
+					height:90px;
+					// margin:0 auto;
+				}	
+			}
+		}
+		.content{
+			float: left;
+			margin-left: 45px;
+			p{	
+				font-size: 16px;
+				width:460px;
+				color:#888;
+				line-height:32px;
+				border-bottom: 1px dashed #dcdcdc;
+			}
+			.intro{
+				font-size:12px;
+				line-height:30px;
+				border:none;
+				span:last-child{
+					float:right;
+				}
+			}
+			h3{
+				font-size:18px;
+				color:#cc3333;
+				line-height: 40px;
+			}
+			.integral{
+				font-size:12px;
+				color:#888; 
+				border:none;
+				span{
+					color:#666;
+				}
+			}
+			.icon_box{
+				position:relative;
+			}
+			.icon{
+				width:135px;
+				.iconfont{
+					font-size:24px;
+				}
+				a{					
+					color:#b5b6b6;
+				}
+				
+			}
+			.icon_two{
+				display:block;
+				position:absolute;
+				left:0;
+				top:0;
+				width:135px;
+				.iconfont{
+					font-size:24px;
+					display:none;
+				}
+				a:first-child,a:nth-child(4){
+					color:green;
+				}
+				a:nth-child(2){
+					color:pink;
+				}
+				a:nth-child(3){
+					color:orange;
+				}
+				a:nth-child(5){
+					color:red;
+				}
+				a:nth-child(6){
+					color:skyblue;
+				}
+			}
+		}
+	}
+
+	/*商品信息，商品评论*/
+	.goodsTab{
+		float:left;
+		width:755px;
+		background: #fff;
+		padding:12px 15px;
+		.clearfix{
+			height:45px;
+			background:#e1e1e1;
+			li{
+				width:105px;
+				text-align: center;
+				line-height: 45px;
+				font-size: 12px;
+				border-right:1px solid #fff;
+				float: left;
+				color:#888;
+				cursor: pointer;
+			}
+			.active{
+				color:#fff;
+				background:#b2b2b2;
+			}
+		}
+		.commodity-info{
+			display:none;
+		}
+		.commodity-info.active{
+			display:block;
+			img{
+				width:755px;
+				height:1436px;
+			}
+		}
+		.question{
+			h2{
+				font-size:16px;
+				color:#888;
+				line-height:33px;
+				border-bottom:1px solid pink;
+			}
+			p{
+				font-size:14px;
+				color:#888;
+				line-height:33px;
+			}
+			.inputBox{
+				width:755px;
+				height:160px;
+				background:#e2e3e3;
+				border-radius:5px;
+				border:none;
+				resize:none;
+			}
+			span{
+				color:#888;
+			}
+			.tj{
+				cursor:pointer;
+				width:80px;
+				margin-left:350px;
+				border-color:#ef8ab6;
+				border-radius:5px;
+				background:#fff;
+				height:30px;
+			}
+		}
+		.argument{
+			h2{
+				font-size:16px;
+				color:#888;
+				line-height:33px;
+				border-bottom:1px solid pink;
+			}
+			.review{
+				border:1px solid #ccc;
+				margin-top:10px;
+				width:755px;
+				h3{
+					color:#888;
+					height:20px;
+					line-height:20px;
+					font-weight:normal;
+					background:#f0eceb;
+					border-bottom:1px solid #ccc;
+					span{
+						padding:0 100px;
+					}
+				}
+				li{
+					color:#888;
+					width:250px;
+					line-height:20px;
+				}
+
+			}
+		}	
+	}
+	.xgcp{
+		width:180px;
+		background: #fff;
+		height:1235px;
+		float:right;
+		margin-bottom: 20px;
+		h2{
+			font-size:14px;
+			height:48px;
+			line-height: 48px;
+			color:#333;
+			text-align: center;
+
+		}
+		ul li{
+			height:235px;
+			margin-left: 20px;
+			a{
+				display: block;
+				width:160px;
+				border:1px solid #ccc;
+				box-sizing:border-box;
+				img{
+					width: 120px;
+					height:156px;
+					margin:0 auto;
+				}
+			}
+			p{
+				margin-top:10px;
+				line-height: 18px;
+				color:#888;
+			}
+			p:last-child{
+				color:#d10048;
+				font-weight: bold;
+			}
+		}
+	}
+}

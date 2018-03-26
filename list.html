@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表页面</title>
+	<link rel="stylesheet" href="dist/css/all.css">
+	<link rel="stylesheet" href="src/scss/iconfont.css">
+	<script src="dist/js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<div class="twoList">
+		<!-- 左边列表 -->
+		<ul class='leftList'>
+			<li class='focus bgpic'><a href="javascript:;">首页</a></li>
+			<li class="act bgpic"><a href="javascript:;">品牌系列</a>
+				<!-- 隐藏列表 -->
+				<ul class="noneList">
+					<li class='focus'><a href="javascript:;"></a></li>
+					<li><a href="javascript:;">维您</a></li>
+					<li><a href="javascript:;">LACELL</a></li>
+					<li><a href="javascript:;">秘密花园</a></li>
+				</ul>
+			</li>
+			<li class="bgpic"><a href="javascript:;">美容护肤</a></li>
+			<li class="bgpic"><a href="javascript:;">健康养生</a></li>
+			<li class="bgpic"><a href="javascript:;">家居日用</a></li>
+			<li class="bgpic"><a href="javascript:;">积分换购</a></li>
+			<li class="bgpic"><a href="javascript:;">VIP会员专区</a></li>
+			<li class="bgpic"><a href="javascript:;">关于麦考林</a></li>
+			<li class="bgpic"><a href="javascript:;">企业荣誉</a></li>
+		</ul>	
+
+		<!-- 右边列表 -->
+		<ul class="rightList">
+			<li><a href="javascript:;"><img src="img/service.png" alt=""></a></li>
+			<li><a href="javascript:;"><img src="img/phone.png" alt=""></a></li>
+			<li><a href="javascript:;"><img src="img/notice.jpg" alt=""></a></li>
+			<li><a href="javascript:;"><img src="img/arrow.png" alt=""></a></li>
+		</ul>
+	</div>
+
+	<!-- logo -->
+	<div class="list-middle">
+		<div class="header">
+			<img src="img/logo.jpg" class="logo">
+			<div class="header_right">
+				<a href="javascript:;"><i class="iconfont icon-search"></i></a>
+				<a href="javascript:;">登录</a>
+				<a href="javascript:;">注册</a>
+				<a href="javascript:;">我的账户</a>
+				<a href="javascript:;" class="focus"><i class="iconfont icon-cart"></i>服务热线<span>&nbsp;400-100-1000</span></a>
+			</div>
+		</div>
+
+		<!-- 品牌，分类 -->
+		<div class="kind">
+			<p class='title'><a href="javascript:;">首页>美容护肤</a> </p>
+			<div class="kind-mid">
+				<b>品&nbsp;&nbsp;&nbsp;&nbsp;牌:</b>
+				<ul class='kind-uls'>
+					<li><a href="javascript:;"><span>LA CELLER</span>(12)</a></li>
+					<li><a href="javascript:;"><span>秘密花园</span>(5)</a></li>
+					<li><a href="javascript:;"><span>PEYAN</span>(5)</a></li>
+					<li><a href="javascript:;"><span>克丽丝汀迪奥</span>(5)</a></li>
+					<li><a href="javascript:;"><span>克丽丝汀迪奥</span>(5)</a></li>
+					<li class='focus'><a href="javascript:;">更多<img src="img/nabla.jpg" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="kind-mid">
+				<b>分&nbsp;&nbsp;&nbsp;&nbsp;类:</b>
+				<ul>
+					<li><a href="javascript:;"><span>LA CELLER</span>(12)</a></li>
+					<li><a href="javascript:;"><span>秘密花园</span>(5)</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 商品列表 -->
+
+		<div class="goodsList">
+			<div class="goodsList-title">
+				<ul class='menu'>
+					<li class="focus"><a href="javascript:;">排序</a></li>
+					<li class="active"><a href="javascript:;">销量</a></li>
+					<li><a href="javascript:;">价格</a></li>
+					<li><a href="javascript:;">最新</a></li>
+				</ul>	
+			</div>
+
+			<div class="goodsBox active">
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add' data-description='吉百事天然植物薰衣草修护乳200ml' data-price='34' data-url='img/thumb.jpg'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥534</span><span><a href="javascript:;" class='add' data-description='凤凰20寸折叠变速自行车（新）' data-price='534' data-url='img/bicycle.jpg'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥99</span><span><a href="javascript:;" class='add' data-description='优滋娜婴幼儿柔软沐浴巾（熊猫)' data-price='99' data-url='img/panda.jpg'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add' ><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/thumb.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">吉百事天然植物薰衣草修护乳200ml</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;" class='add'><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+			</div>
+			
+
+			<div class="goodsBox">
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/bicycle.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">凤凰20寸折叠变速自行车（新）</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+			</div>
+
+
+			<div class="goodsBox">
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+				<div class="goods">
+						<div class="goodsAlone">
+							<a href="javascript:;"><img src="img/panda.jpg" alt=""></a>
+						</div>
+						<p class='description'><a href="javascript:;">优滋娜婴幼儿柔软沐浴巾（熊猫)</a></p>
+						<p class="price"><span>￥34</span><span><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></span></p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 分页 -->
+		<div class="paging">
+			<ul>
+				<li class='active'><a href="javascript:;">1</a></li>
+				<li><a href="javascript:;">2</a></li>
+				<li><a href="javascript:;">3</a></li>
+				<li><a href="javascript:;">4</a></li>
+				<li><a href="javascript:;">5</a></li>
+				<li><a href="javascript:;">6</a></li>
+				<li><a href="javascript:;">7</a></li>
+				<li><a href="javascript:;">8</a></li>
+				<li><a href="javascript:;">9</a></li>
+				<li><a href="javascript:;">10</a></li>
+				<li><a href="javascript:;">下一页</a></li>
+			</ul>
+		</div>
+		
+		<!-- 100%正品保证 -->
+		<div class="section_three">
+			<div class="sec03_top">
+				<div class="list">
+					<a href="javascript:;"><img src="img/percent.jpg"></a>
+					<a href="javascript:;" class="introduce">100%正品保证</a>
+				</div>
+			</div>
+			<div class="sec03_top">
+				<div class="list">
+					<a href="javascript:;"><img src="img/girl.jpg"></a>
+					<a href="javascript:;" class="introduce">专业在线客服</a>
+				</div>
+			</div>
+			<div class="sec03_top">
+				<div class="list">
+					<a href="javascript:;"><img src="img/girl.jpg"></a>
+					<a href="javascript:;" class="introduce">专业在线客服</a>
+				</div>
+			</div>
+			<ul class="sec03_bottom"></ul>
+		</div>
+	<!-- 列表 -->
+		<div class="section_four">
+			<dl>
+				<dt>新手指南</dt>
+				<dd><a href="javascript:;">新会员注册</a></dd>
+				<dd><a href="javascript:;">购物演示</a></dd>
+				<dd><a href="javascript:;">常见问题</a></dd>
+			</dl>
+			<dl>
+				<dt>付款方式</dt>
+				<dd><a href="javascript:;">银行卡支付</a></dd>
+				<dd><a href="javascript:;">支付宝支付</a></dd>
+				<dd><a href="javascript:;">余额支付</a></dd>
+			</dl>
+			<dl>
+				<dt>售后服务</dt>
+				<dd><a href="javascript:;">退换货政策</a></dd>
+				<dd><a href="javascript:;">退换货流程</a></dd>
+				<dd><a href="javascript:;">退款流程</a></dd>
+				<dd><a href="javascript:;">发票说明</a></dd>
+			</dl>
+			<dl>
+				<dt>特色服务</dt>
+				<dd><a href="javascript:;">贵宾专区</a></dd>
+				<dd><a href="javascript:;">在线客服</a></dd>
+			</dl>
+			<div class="Mlife">
+				<div class="ewm ewm_one">
+					<p>麦考林生活家</p>
+					<img src="img/ewm.jpg">
+				</div>
+				<div class="ewm">
+					<p>麦考林生活家</p>
+					<img src="img/ewm.jpg">
+				</div>
+			</div>		
+		</div>
+	</div>
+
+<div class="line"></div>
+
+<div class="footer">
+	<ul class="list">
+		<li><a href="javascript:;">关于麦考林</a></li>
+		<li><a href="javascript:;">INVESTOR RELATIONS</a></li>
+		<li><a href="javascript:;">联系我们</a></li>
+		<li><a href="javascript:;">服务中心</a></li>
+		<li class="active"><a href="javascript:;">加入我们</a></li>
+	</ul>
+	<p class="copyright">
+		<a href="javascript:;"><img src="img/copyright.png" alt=""></a>
+		 沪ICP备05003606号Copyright©2011-2015 MecoxLane Inc. All Rights Reserved
+	</p>
+	<p class="last">
+		<a href="javascript:;"><img src="img/free.jpg" alt="" class="free"></a>
+		<a href="javascript:;"><img src="img/onlineReview.jpg" class="onlineReview"></a>
+			
+		<a href="javascript:;">
+			<img src="img/badges.png" class="badges">沪公网安备 31010402000234号
+		</a>		
+	</p>
+</div>
+
+<script src='src/js/list.js'></script>
+<script>
+	$('.goodsList').tab();
+</script>
+</body>
+</html>

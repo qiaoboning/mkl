@@ -1,0 +1,165 @@
+.shoppingcart{
+	position:relative;
+	background:#fff;
+	padding:22px 30px;
+	width:1000px;
+	.iconfont{
+		float:left;
+		vertical-align:middle;
+		margin-right:12px;
+		font-size:20px;
+	}
+	h3{
+		line-height:32px;
+		font-size:12px;
+		font-weight:normal;
+		color:#888;
+	}
+	.goodsName{
+		margin-left:10px;
+		float:left;
+	}
+	.picBefore{
+		margin:60px 0;
+		vertical-align:middle;
+	}
+	img{
+		border:1px solid #ccc;
+		float:left;
+		width:90px;
+		height:90px;
+		margin-left:50px;
+		margin-right:10px;
+		margin-top:20px;
+	}
+	.content-right{
+		float:left;
+		p{
+			color:#888;
+		}
+		.content{
+			margin-top:20px;
+			width:180px;
+			color:#888;
+		}
+		.Product-id{
+			padding-top:10px;
+		}
+	}
+	.cart_item{
+		border:1px solid #ccc;
+		width:90px;
+		height:25px;
+		.reduce,.number,.plus{
+			float:left;
+			height:25px;
+			border-right:1px solid #ccc;
+			box-sizing:border-box;
+		}
+		.reduce{
+			width:25px;
+			line-height:25px;
+			text-align:center;
+			cursor:pointer;
+		}
+		.number{
+			width:40px;
+			height:25px;
+			line-height:25px;
+			text-align:center;		
+		}
+		.plus{
+			width:25px;
+			border:none;
+			line-height:25px;
+			text-align:center;
+			cursor:pointer;
+		}
+		
+	}
+	tr:nth-child(2){
+		display:none;
+	}
+	.noneGoods{
+		color:#888;
+		text-align:center;
+		a{
+			color:#888;
+			text-align:center;
+		}
+	}
+	.delete{
+		color:#888;
+	}
+	span{
+		color:#888;
+	}
+	table{
+		border:1px solid #ccc;
+	}
+	.table-title{
+		background:#fafafa;
+		border-bottom:1px solid #ccc;
+	}
+	.deletegoods{
+		display:none;
+		position:absolute;
+		right:0;
+		top:0;
+		width:60px;
+		height:60px;
+		background:#fafafa;
+		padding:20px;
+		.confirm{
+			width:45px;
+			height:15px;
+			border:1px solid #ccc;
+			text-align:center;
+			line-height:15px;
+			margin:5px auto;
+			color:#fff;
+			cursor:pointer;
+		}
+		.sure{
+			background:#e71f68;		
+		}
+		.cancel{
+			background:#ccc;
+		}
+	}
+
+	.result{
+		height:50px;
+		background:#fafafa;
+		margin-top:20px;
+		color:#888;
+		line-height:50px;
+		input{
+			margin:0 10px;
+		}
+		.result-left{
+			color:#000;
+			float:left;
+		}
+		.result-right{
+			float:right;
+			.num{
+				color:red;
+				font-weight:bold;
+				font-size:14px;
+			}
+		}
+		a{
+			span{
+				display:inline-block;
+				width:145px;
+				height:50px;
+				text-align:center;
+				color:#fff;
+				font-size:18px;
+				background:#e61c66
+			}
+		}
+	}
+}
+
